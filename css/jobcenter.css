@@ -1,0 +1,83 @@
+.myBody {
+    background-image: url("../img/city.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+}
+
+.logoImages:hover {
+    margin: 0px;
+    text-decoration-color: darkred;
+}
+
+#gmLogo {
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+
+#logoJobcenter {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-left: 23%;
+    margin-top: 1%;
+}
+
+#dcilogo {
+    border-radius: 50%;
+    float: right;
+    margin-top: 2%;
+    /* the border-radius as above can be used to make the border of an image or logo 
+    to be rounded*/
+}
+
+.message {
+    border: rgba(red, green, blue, alpha);
+    color: aliceblue;
+    margin-top: 2%;
+    height: 400px;
+    width: 600px;
+    overflow: scroll;
+    /* overflow: scroll as above is used to make the text in the box to be scrolling as one
+    moves the mouse*/
+}
+
+#letterHead {
+    margin-left: 20%;
+    font-size: 22px;
+    color: aliceblue;
+}
+
+#myLetter {
+    color: aliceblue;
+    font-size: 1.2rem;
+    letter-spacing: .2rem;
+    word-spacing: .2rem;
+    /* letter-spacing: as above is used to increase the space between letter in each
+    word in the text*/
+}
+
+.steinMüllergelände {
+    margin-top: 1.65%;
+    margin-left: -08.5%;
+    margin-right: -10%;
+    height: max-content;
+    width: 1308px;
+    border-color: #121E29;
+    border-style: solid;
+    border-width: 15px 25px 15px 25px;
+}
+
+.scrollDank {
+    border: rgba(red, green, blue, alpha) red double;
+    overflow: auto;
+    float: right;
+    color: pink;
+    font-size: 3rem;
+    margin-top: 20%;
+    margin-right: 5%;
+    text-align: initial;
+}
